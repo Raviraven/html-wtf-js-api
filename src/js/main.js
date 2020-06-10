@@ -1,3 +1,5 @@
+"use strict";
+
 const js_api = document.querySelector(".js-api");
 
 fetch("https://api.github.com/users/raviraven/repos")
