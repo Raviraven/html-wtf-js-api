@@ -49,7 +49,6 @@ body {
 
 .main {
   grid-area: content;
-
 }
 
 .repo{
@@ -58,12 +57,12 @@ body {
   background-color: #afafaf;
   border-radius: 0.5rem;
 
-  &_description {
+  &__description {
     margin: 1rem;
     padding: 0.25rem;
   }
 
-  &_header {
+  &__header {
     font-size: 1.5rem;
     padding: 0.5rem;
     background-color: #6e6e6e;
@@ -74,7 +73,7 @@ body {
     }
   }
 
-  &_url {
+  &__url {
     text-decoration: none;
     color: rgb(37, 34, 34);
   }
