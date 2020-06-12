@@ -36,6 +36,14 @@ body {
 
 .footer {
   grid-area: footer;
+
+  &__link {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .header{
